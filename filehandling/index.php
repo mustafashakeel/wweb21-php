@@ -2,6 +2,7 @@
 
 echo readfile("myfile.txt");
 
+
 $myfile = fopen("myfile.txt", "r") or die("I am not able to get the file ");
 
 echo "<br/>";
